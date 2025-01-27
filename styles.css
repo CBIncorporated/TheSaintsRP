@@ -23,7 +23,8 @@ h1, h2, p, ul, li {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 150px 20px; 
+    padding: 150px 20px; /* Adjust padding for header text positioning */
+    height: 400px; /* Ensures the header has a minimum height */
 }
 
 .main-header h1 {
@@ -90,33 +91,6 @@ li {
 /* Additional button styles for links */
 a.button {
     text-align: center;
-}
-
-/* FAQ styles */
-section div h3 {
-    font-size: 1.7em;
-    color: #1a1a1a;
-    margin-bottom: 10px;
-}
-
-section div p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-/* Testimonials styles */
-section div h3 {
-    font-size: 1.7em;
-    color: #1a1a1a;
-    margin-bottom: 10px;
-}
-
-section div p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 20px;
-    font-style: italic;
 }
 
 /* Footer styles */
