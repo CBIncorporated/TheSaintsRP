@@ -23,7 +23,7 @@ h1, h2, p, ul, li {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 150px 20px; /* Adjust padding for header text positioning */
+    padding: 150px 20px; 
 }
 
 .main-header h1 {
