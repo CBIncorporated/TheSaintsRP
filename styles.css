@@ -1,11 +1,12 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
+    font-size: 18px; /* Increased base font size */
 }
 
 h1, h2, p, ul, li {
@@ -17,46 +18,49 @@ h1, h2, p, ul, li {
 header {
     background-color: #1a1a1a;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px; /* Increased padding */
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em; /* Increased header size */
 }
 
 /* Main content section styles */
 section {
-    padding: 20px;
+    padding: 40px;
     max-width: 1100px;
     margin: 0 auto;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
-/* Headings */
+/* Section headings */
 h2 {
     color: #1a1a1a;
-    font-size: 1.8em;
+    font-size: 2.2em; /* Increased heading size */
+    margin-bottom: 20px;
 }
 
 /* Paragraphs */
 p {
-    font-size: 1.1em;
+    font-size: 1.3em; /* Increased paragraph size */
     color: #555;
+    margin-bottom: 20px;
 }
 
 /* List styles */
 ul {
-    margin-top: 10px;
-    font-size: 1.1em;
+    margin-top: 20px;
+    font-size: 1.3em; /* Increased list size */
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Button styles */
@@ -64,22 +68,80 @@ li {
     display: inline-block;
     background-color: #ff5c57;
     color: white;
-    padding: 12px 25px;
+    padding: 16px 35px; /* Increased padding */
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.4em; /* Increased button font size */
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
 .button:hover {
     background-color: #e14e47;
 }
 
+/* FAQ styles */
+section div h3 {
+    font-size: 1.7em;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+section div p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Testimonials styles */
+section div h3 {
+    font-size: 1.7em;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+section div p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
 /* Footer styles */
 footer {
     background-color: #1a1a1a;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    .button {
+        font-size: 1.2em;
+        padding: 12px 25px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    ul, li {
+        font-size: 1.2em;
+    }
 }
