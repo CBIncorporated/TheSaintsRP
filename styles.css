@@ -15,22 +15,37 @@ h1, h2, p, ul, li {
 }
 
 /* Header styles */
-.main-header {
-    position: relative;
-    background-image: url('https://media.discordapp.net/attachments/1102636922972688404/1333576755876855849/FiveM_by_Cfx.re_-_The_Saints_Roleplay_27_01_2025_23_17_23.png?ex=679965a3&is=67981423&hm=2f178cde0a5f4689be9be97118716390a2203b54fbca63d2198a7030d0b847ae&=&format=webp&quality=lossless&width=1193&height=671');
-    background-size: cover; /* Make the background cover the whole header */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat;
+header {
+    background-color: #1a1a1a;
     color: white;
+    padding: 20px 40px; /* Increased padding */
     text-align: center;
-    padding: 150px 20px; /* Adjust padding for header text positioning */
-    height: 400px; /* Ensures the header has a minimum height */
+    position: relative;
+    height: 400px; /* Fixed height for header */
+    overflow: hidden;
 }
 
-.main-header h1 {
-    font-size: 4em; /* Larger font size */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for readability */
+/* Main header background image */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.discordapp.net/attachments/1102636922972688404/1333576755876855849/FiveM_by_Cfx.re_-_The_Saints_Roleplay_27_01_2025_23_17_23.png?ex=679965a3&is=67981423&hm=2f178cde0a5f4689be9be97118716390a2203b54fbca63d2198a7030d0b847ae&=&format=webp&quality=lossless&width=1193&height=671');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Keeps the center of the image in focus */
+    background-repeat: no-repeat;
+    z-index: -1; /* Makes sure the text appears above the image */
+}
+
+/* Header text */
+header h1 {
     margin: 0;
+    font-size: 3em; /* Increased header size */
+    z-index: 1; /* Ensure text is above the background image */
+    position: relative;
 }
 
 /* Main content section styles */
@@ -93,6 +108,33 @@ a.button {
     text-align: center;
 }
 
+/* FAQ styles */
+section div h3 {
+    font-size: 1.7em;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+section div p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Testimonials styles */
+section div h3 {
+    font-size: 1.7em;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+section div p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
 /* Footer styles */
 footer {
     background-color: #1a1a1a;
@@ -102,13 +144,14 @@ footer {
     margin-top: 30px;
 }
 
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
     }
 
-    .main-header h1 {
+    header h1 {
         font-size: 2.5em;
     }
 
