@@ -15,16 +15,21 @@ h1, h2, p, ul, li {
 }
 
 /* Header styles */
-header {
-    background-color: #1a1a1a;
+.main-header {
+    position: relative;
+    background-image: url('https://media.discordapp.net/attachments/1102636922972688404/1333576755876855849/FiveM_by_Cfx.re_-_The_Saints_Roleplay_27_01_2025_23_17_23.png?ex=679965a3&is=67981423&hm=2f178cde0a5f4689be9be97118716390a2203b54fbca63d2198a7030d0b847ae&=&format=webp&quality=lossless&width=1193&height=671');
+    background-size: cover; /* Make the background cover the whole header */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
     color: white;
-    padding: 20px 40px; /* Increased padding */
     text-align: center;
+    padding: 150px 20px; /* Adjust padding for header text positioning */
 }
 
-header h1 {
+.main-header h1 {
+    font-size: 4em; /* Larger font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for readability */
     margin: 0;
-    font-size: 3em; /* Increased header size */
 }
 
 /* Main content section styles */
@@ -75,10 +80,16 @@ li {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-top: 20px;
+    text-align: center;
 }
 
 .button:hover {
     background-color: #e14e47;
+}
+
+/* Additional button styles for links */
+a.button {
+    text-align: center;
 }
 
 /* FAQ styles */
@@ -117,13 +128,13 @@ footer {
     margin-top: 30px;
 }
 
-
+/* Mobile responsiveness */
 @media (max-width: 768px) {
     body {
-        font-size: 16px; /
+        font-size: 16px;
     }
 
-    header h1 {
+    .main-header h1 {
         font-size: 2.5em;
     }
 
