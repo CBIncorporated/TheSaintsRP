@@ -22,25 +22,12 @@ header {
     text-align: center;
     position: relative;
     height: 400px; /* Fixed height for header */
-    overflow: hidden;
-}
-
-/* Main header background image */
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://media.discordapp.net/attachments/1102636922972688404/1333576755876855849/FiveM_by_Cfx.re_-_The_Saints_Roleplay_27_01_2025_23_17_23.png?ex=679965a3&is=67981423&hm=2f178cde0a5f4689be9be97118716390a2203b54fbca63d2198a7030d0b847ae&=&format=webp&quality=lossless&width=1193&height=671');
+    background-image: url("https://media.discordapp.net/attachments/1102636922972688404/1333576755876855849/FiveM_by_Cfx.re_-_The_Saints_Roleplay_27_01_2025_23_17_23.png?ex=679965a3&is=67981423&hm=2f178cde0a5f4689be9be97118716390a2203b54fbca63d2198a7030d0b847ae&=&format=webp&quality=lossless&width=1193&height=671");
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Keeps the center of the image in focus */
     background-repeat: no-repeat;
-    z-index: -1; /* Makes sure the text appears above the image */
 }
 
-/* Header text */
 header h1 {
     margin: 0;
     font-size: 3em; /* Increased header size */
@@ -143,7 +130,6 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
-
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
