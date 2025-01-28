@@ -22,7 +22,7 @@ header {
     text-align: center;
     position: relative;
     height: 350px; /* Fixed height for header */
-    background-image: file ("C:\Users\rapid\OneDrive\tsrp1.png");
+    background-image: <img>"C:\Users\rapid\OneDrive\tsrp1.png"</img>
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Keeps the center of the image in focus */
     background-repeat: no-repeat;
