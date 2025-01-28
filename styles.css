@@ -18,7 +18,7 @@ h1, h2, p, ul, li {
 header {
     background-color: #1a1a1a;
     color: white;
-    padding: 50px 40px; /* Increased padding */
+    padding: 80px 40px; /* Increased padding */
     text-align: center;
     position: relative;
     height: 350px; /* Fixed height for header */
