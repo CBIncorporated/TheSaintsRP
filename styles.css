@@ -22,7 +22,7 @@ header {
     text-align: center;
     position: relative;
     height: 350px;
-    background-image: url("images/tsrp1.png"); /* Update with relative path */
+    background-image: url("images/tsrp1.png"); /* Updated background image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,17 +90,40 @@ li {
     background-color: #e14e47;
 }
 
-a.button {
+/* Footer styles */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
     text-align: center;
+    margin-top: 30px;
 }
 
-/* FAQ & Testimonial styles */
-section div h3 {
-    font-size: 1.7em;
-    color: #1a1a1a;
-    margin-bottom: 10px;
-}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
 
-section div p {
-    font-size: 1.2em;
-    color: #555;
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    .button {
+        font-size: 1.2em;
+        padding: 12px 25px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    ul, li {
+        font-size: 1.2em;
+    }
+}
