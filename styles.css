@@ -21,7 +21,7 @@ header {
     padding: 180px 40px;
     text-align: center;
     position: relative;
-    height: 350px;background-image: url("/images/tsrp1.png");
+    height: 350px;background-image: url("images/tsrp1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
