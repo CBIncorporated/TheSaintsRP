@@ -1,128 +1,282 @@
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-    font-size: 18px;
-}
+CB
+impulsereflx
+CB Inc- Graphic/Web Design
 
-h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+Callum — Today at 21:33
+there you go if you want it
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join The Saints Roleplay 2.0, a GTA roleplay community offering an immersive experience in a dynamic city environment.">
+    <title>The Saints Roleplay 2.0 - GTA Roleplay Community</title>
 
-/* Header styles */
-header {
-    background-color: #1a1a1a;
-    color: white;
-    padding: 180px 40px;
-    text-align: center;
-    position: relative;
-    height: 350px;background-image: url("images/tsrp1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-header h1 {
-    margin: 0;
-    font-size: 3em;
-    z-index: 1;
-    position: relative;
-}
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-/* Main content section styles */
-section {
-    padding: 40px;
-    max-width: 1100px;
-    margin: 0 auto;
-    background-color: white;
-    margin-top: 30px;
-    border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+        }
+        .hero {
+            background: url('https://cbincorporated.github.io/TheSaintsRP/images/tsrp1.png') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background: #1e1e1e;
+            border: none;
+            color: white;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s ease-in-out;
+        }
+        .footer {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
-/* Section headings */
-h2 {
-    color: #1a1a1a;
-    font-size: 2.2em;
-    margin-bottom: 20px;
-}
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Saints RP 2.0</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+                <li class="nav-item">
+                    <a class="btn btn-primary ms-2" href="https://discord.gg/fJAWH3XZR3">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-/* Paragraphs */
-p {
-    font-size: 1.3em;
-    color: #555;
-    margin-bottom: 20px;
-}
+<!-- Hero Section -->
+<header class="hero">
+    <h1 class="fw-bold">The Saints Roleplay 2.0</h1>
+    <p class="lead">An immersive GTA Roleplay experience like no other</p>
+    <a href="https://discord.gg/fJAWH3XZR3" class="btn btn-lg btn-primary mt-3">Join Our Discord</a>
+</header>
 
-/* List styles */
-ul {
-    margin-top: 20px;
-    font-size: 1.3em;
-}
+<!-- About Section -->
+<section id="about" class="container my-5">
+    <h2 class="text-center fw-bold">Who Are We?</h2>
+    <p class="lead text-center">A next-gen roleplay experience built on QB-Core, inspired by the vibrant streets of Los Angeles.</p>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h4>Community-Driven</h4>
+            <p>Engage with like-minded roleplayers in a city that never sleeps.</p>
+        </div>
+... (66 lines left)
+Collapse
+index.html
+7 KB
+﻿
+Callum
+jmathews24
+checkout my new Network Rail EUP
+https://aixamworkshop.com/products/network-rail-trackside-engineer-eup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join The Saints Roleplay 2.0, a GTA roleplay community offering an immersive experience in a dynamic city environment.">
+    <title>The Saints Roleplay 2.0 - GTA Roleplay Community</title>
 
-li {
-    margin-bottom: 15px;
-}
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-/* Button styles */
-.button {
-    display: inline-block;
-    background-color: #ff5c57;
-    color: white;
-    padding: 16px 35px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.4em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-    text-align: center;
-}
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-.button:hover {
-    background-color: #e14e47;
-}
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+        }
+        .hero {
+            background: url('https://cbincorporated.github.io/TheSaintsRP/images/tsrp1.png') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background: #1e1e1e;
+            border: none;
+            color: white;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s ease-in-out;
+        }
+        .footer {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
-/* Footer styles */
-footer {
-    background-color: #1a1a1a;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-top: 30px;
-}
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Saints RP 2.0</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+                <li class="nav-item">
+                    <a class="btn btn-primary ms-2" href="https://discord.gg/fJAWH3XZR3">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
+<!-- Hero Section -->
+<header class="hero">
+    <h1 class="fw-bold">The Saints Roleplay 2.0</h1>
+    <p class="lead">An immersive GTA Roleplay experience like no other</p>
+    <a href="https://discord.gg/fJAWH3XZR3" class="btn btn-lg btn-primary mt-3">Join Our Discord</a>
+</header>
 
-    header h1 {
-        font-size: 2.5em;
-    }
+<!-- About Section -->
+<section id="about" class="container my-5">
+    <h2 class="text-center fw-bold">Who Are We?</h2>
+    <p class="lead text-center">A next-gen roleplay experience built on QB-Core, inspired by the vibrant streets of Los Angeles.</p>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h4>Community-Driven</h4>
+            <p>Engage with like-minded roleplayers in a city that never sleeps.</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fas fa-coins fa-3x mb-3"></i>
+            <h4>Thriving Economy</h4>
+            <p>Start a business, climb the ranks, or find your hustle in the streets.</p>
+        </div>
+    </div>
+</section>
 
-    section {
-        padding: 30px;
-        margin-top: 20px;
-    }
+<!-- FAQ Section -->
+<section id="faq" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center fw-bold">Frequently Asked Questions</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>How do I join?</h5>
+                    <p>Click the button below to join our Discord and start your journey.</p>
+                    <a href="https://discord.gg/fJAWH3XZR3" class="btn btn-primary">Join Discord</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>What framework do you use?</h5>
+                    <p>We use <strong>QB-Core</strong>, one of the best frameworks for GTA RP.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>Do I need mods?</h5>
+                    <p>No special mods are required, just ensure your FiveM client is up to date.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    .button {
-        font-size: 1.2em;
-        padding: 12px 25px;
-    }
+<!-- Media Section -->
+<section id="media" class="container text-center my-5">
+    <h2>Community Media</h2>
+    <p>Check out our latest media content.</p>
+    <a href="media.html" class="btn btn-primary">View Gallery</a>
+</section>
 
-    h2 {
-        font-size: 1.8em;
-    }
+<!-- Staff Section -->
+<section id="staff" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center fw-bold">Meet the Staff</h2>
+        <ul class="list-group">
+            <li class="list-group-item bg-transparent text-light">🎖️ <strong>sidcharles</strong> - Community Management</li>
+            <li class="list-group-item bg-transparent text-light">👨‍💻 <strong>CB</strong> - Senior Developer & Media Relations</li>
+            <li class="list-group-item bg-transparent text-light">📷 <strong>kcim</strong> - Staff Team/Media Lead</li>
+        </ul>
+    </div>
+</section>
 
-    ul, li {
-        font-size: 1.2em;
-    }
-}
+<!-- Footer -->
+<footer class="footer text-center">
+    <p>&copy; 2025 The Saints Roleplay 2.0. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+index.html
+7 KB
